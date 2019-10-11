@@ -21,5 +21,17 @@ console.log(fruit)
 fruit = 'pear'
 console.log(fruit)
 // redefine 
-let fruit = 'banana'
-console.log(fruit)
+// let fruit = 'banana'
+// console.log(fruit)
+
+// CONST 
+// define 
+const boilingPoint = 100
+console.log(boilingPoint)
+// update 
+// boilingPoint = 150
+
+const person = {name:'Peter'}
+console.log(person)
+person.name = 'Simon'
+console.log(person)
