@@ -44,6 +44,30 @@ const high = numbers.filter(number => number > 3)
 console.log(high);
 
 
+// this 
 
+const clock = {
+    time:0,
+    stopwatch: function(){
+        const self = this
+        setInterval(function() {
+            console.log(self.time++)
+        },1000)
+    }
+}
 
+// clock.stopwatch()
 
+// this using arrow function 
+
+const  clock1 = {
+    time:0,
+    stopwatch1: function() {
+        setInterval(() => {
+            console.log(this.time++);
+            
+        },1000)
+
+    }
+}
+// clock1.stopwatch1()
