@@ -71,3 +71,16 @@ if (test1) {
     let amount = 'apples and pears'
 }
 console.log('Salary is ' + amount);
+
+// ********************
+
+// Template Literals 
+
+const name = 'Simon'
+const lastName = 'Jones'
+const age = 39
+const phrase = "My full name is " +name+" "+lastName+ " and I am " +age+" years old"
+console.log(phrase);
+const phrase2 = `My full name is ${name} ${lastName} and I am ${age} years old.`
+console.log(phrase2);
+
