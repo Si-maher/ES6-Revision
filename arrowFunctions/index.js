@@ -25,3 +25,13 @@ console.log(num);
 
 
 // two parameter 
+
+let multiply = (num1,num2) => {
+const result = num1 *num2
+return result;
+
+
+}
+console.log(multiply(10,2));
+
+
