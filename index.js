@@ -11,3 +11,15 @@ var number = 'orange'
 console.log(number)
 
 // ************************** 
+
+// Let 
+
+// define 
+let fruit = 'apple'
+console.log(fruit)
+// update 
+fruit = 'pear'
+console.log(fruit)
+// redefine 
+let fruit = 'banana'
+console.log(fruit)
