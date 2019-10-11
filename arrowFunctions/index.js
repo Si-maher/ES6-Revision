@@ -38,6 +38,11 @@ const obj = ()=> ({name:'dave', age: 33})
 const person = obj()
 console.log(person);
 
+// Array 
+const numbers = [1,2,3,4,5,6,7,8,9]
+const high = numbers.filter(number => number > 3)
+console.log(high);
+
 
 
 
