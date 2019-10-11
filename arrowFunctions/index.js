@@ -29,9 +29,16 @@ console.log(num);
 let multiply = (num1,num2) => {
 const result = num1 *num2
 return result;
-
-
 }
 console.log(multiply(10,2));
+
+// object 
+
+const obj = ()=> ({name:'dave', age: 33})
+const person = obj()
+console.log(person);
+
+
+
 
 
